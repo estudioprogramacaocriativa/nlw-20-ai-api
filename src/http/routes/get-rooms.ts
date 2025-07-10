@@ -1,6 +1,6 @@
 import type { FastifyPluginCallbackZod } from 'fastify-type-provider-zod'
-import { db } from '../../db/connection.ts'
 import { schema } from '../../db/schema/index.ts'
+import { db } from '../../db/connection.ts'
 import { countDistinct, eq } from 'drizzle-orm'
 
 export const getRoomsRoute: FastifyPluginCallbackZod = (app) => {

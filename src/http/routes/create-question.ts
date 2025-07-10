@@ -16,16 +16,14 @@ export const createQuestionRoute: FastifyPluginCallbackZod = (app) => {
             }
         },
         async (request, reply) => {
-            //const { roomId } = request.params
+            const { roomId } = request.params
             const { question } = request.body
-
-            console.log(question)
 
             const result = await db
             .insert(schema.questions)
             .values({
                 roomId,
-                questions: question
+                question
             })
             .returning()
 

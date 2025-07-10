@@ -15,6 +15,13 @@
       "when": 1752107744256,
       "tag": "0001_small_rogue",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752111180558,
+      "tag": "0002_secret_eternals",
+      "breakpoints": true
     }
   ]
 }

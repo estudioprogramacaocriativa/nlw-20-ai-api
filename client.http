@@ -41,5 +41,5 @@ POST {{baseUrl}}/rooms/{{roomId}}/questions
 Content-Type: application/json
 
 {
-    "question": "Como funcionam as parábolas",
+    "question": "Como funcionam as parábolas"
 }
